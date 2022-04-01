@@ -1,0 +1,54 @@
+body {
+  /* background-color: #2A2A2A; */
+}
+
+header {
+  background-color: #2A2A2A;
+  padding: 16px 0;
+}
+
+nav {
+  /* which is lesser than 1344px which might be of a 13in screen */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav img {
+  margin-right: 100px;
+}
+
+/* Targets all the "a" tags inside the nav tag */
+nav a {
+  color: #d4d4d4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 12px;
+  vertical-align: middle;
+  transition: all .2s;
+}
+
+/* Active Navigation Link */
+.active {
+  background-color: #107698;
+  padding: 6px 14px;
+  border-radius: 2px;
+  color: white;
+}
+
+/* First of the "a" tag inside of the Nav tag */
+nav a:first-of-type {
+  margin-right: 0px;
+}
+/* Last of the "a" tag inside of the Nav tag */
+nav a:last-of-type {
+  color: #FDB530;
+  margin-right: 0px;
+}
+
+/* Hover Effect */
+nav a:hover {
+  color: white;
+}
