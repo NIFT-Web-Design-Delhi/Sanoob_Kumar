@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+header {
+  padding-top: 50px;
+}
+
+.mainpage {
+ width: 50%;
+ background-color: white;
+ height: 1050px;
+ margin: auto;
+ display: flex;
+ padding: 40px;
+}
+
+/* left side of the resume */
+.leftcontainer {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1050px;
+  width: 40%;
+}
+
+.profilecontainer {
+  display: flex;
+}
+
+.bluecircle {
+  height: 220px;
+  width: 220px;
+  background-color: #276b7e;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 28px;
+}
+
+.whitecircle {
+  height: 175px;
+  width: 175px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 50.5px;
+  position: absolute;
+}
+
+img {
+  position:
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 58px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.name {
+  font-family: 'Lato',sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #276b7e;
+  margin: 10px 30px 10px 40px;
+}
+
+.designation {
+  font-family: 'Lato',sans-serif;
+  font-size: 12px;
+  color: black;
+  line-height: 14px;
+  margin: 0px 30px 10px 40px;
+  padding-bottom: 30px;
+}
+
+.designation2 {
+  font-family: 'Lato',sans-serif;
+  font-size: 12px;
+  color: black;
+  line-height: 14px;
+  margin: 0px 30px 10px 20px;
+}
+
+.about {
+  display: flex;
+  font-family: 'Lato',sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.material-icons {
+    margin: 0px 0px 30px 39px;
+}
+
+.profileabout {
+  font-family: 'nunito',sans-serif;
+  font-size: 14px;
+  color: black;
+  list-style-type: disc;
+  margin: 5px 20px 0px 40px;
+}
+
+.languagelist {
+  display: flex;
+}
+
+.lname {
+  font-family: 'nunito',sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  list-style-type: disc;
+  margin: 10px 60px 0px 40px;
+}
+
+.llevel {
+  font-family: 'nunito',sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+  list-style-type: disc;
+  margin: 10px 60px 0px 40px;
+}
+
+.dot1 {
+  height: 6px;
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.emptydot1 {
+  height: 6px;
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.dotblank {
+  height: 6px;
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+/* right side of the resume */
+.rightcontainer {
+  background-color: white;
+  height: 1050px;
+  width: 70%;
+}
+
+.heading {
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #276b7e;
+  margin: 40px 20px 10px 60px;
+}
+
+.heading2 {
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #276b7e;
+  margin: 40px 20px 10px 40px;
+}
+
+.role {
+  font-family: 'Lato',sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  line-height: 20px;
+  margin: 0px 0px 10px 60px;
+}
+
+.date {
+  font-family: 'Lato',sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin: 0px 20px 10px 50px;
+}
+
+.roleanddate {
+   display: flex;
+}
+
+.company {
+  font-family: 'Lato',sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 20px 30px 60px;
+}
+
+li {
+  font-family: 'nunito',sans-serif;
+  font-size: 14px;
+  color: black;
+  list-style-type: disc;
+  margin: 5px 20px 0px 75px;
+}
+
+.underline {
+  display: flex;
+  height: 2px;
+  width: 50%;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+.underline2 {
+  display: flex;
+  height: 2px;
+  width: 50%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.underline span {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.underline2 span {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.skillset {
+  display: flex;
+}
+
+.skillpoint {
+  font-family: 'nunito',sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  list-style-type: disc;
+  margin: 10px 60px 0px 40px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.emptydot {
+  height: 10px;
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+footer {
+  padding-bottom: 50px;
+}
