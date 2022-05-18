@@ -1,3 +1,3 @@
 # Sanoob_Kumar
 
-[[JURY ASSIGNMENT]](https://nift-web-design-delhi.github.io/Sanoob_Kumar/Assignment_3/)
+[[JURY ASSIGNMENT]](https://nift-web-design-delhi.github.io/Vivek_kumar/assignment_3/)
